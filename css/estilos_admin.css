@@ -1,0 +1,303 @@
+body{	
+	background-image: url(../img/sativa.png);
+}
+
+/* --- --- BARRA LATERAL --- --- */
+.barra-lateral {
+	background: #262a34;
+	color: #fff;
+	min-width: 270px;
+	min-height: 100vh;
+	padding: 0;
+}
+
+.barra-lateral a {
+	color: #fff;
+}
+
+/* --- LOGO --- */
+.barra-lateral .logo {
+	background: rgba(0,0,0,0.9);
+	margin-bottom: 2px;
+}
+
+.barra-lateral .logo h2 {
+	font-size: 35px;
+	font-family: 'Dancing Script', sans-serif;
+	padding: 20px 0;
+	text-align: center;
+	font-weight: 300;
+	margin:0;
+	font-weight: 700;
+}
+
+/* --- MENU --- */
+.barra-lateral .menu a {
+	display: block;
+	padding: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	border-bottom: 1px solid rgba(255,255,255,.1);
+	transition: all .3s ease;
+}
+
+.barra-lateral .menu a:hover {
+	background: rgba(255,255,255,0.5);
+	text-decoration: none;
+	transition: all .3s ease;
+}
+.barra-lateral .menu a span {
+	transition: all .3s ease;
+}
+
+.barra-lateral .menu a:hover span {
+	margin-left: 10px;
+	transition: all .3s ease;
+}
+
+.barra-lateral .menu a i {
+	margin-right: 20px;
+	font-weight: normal;
+}
+
+/*--- Nuevo Administrador ---*/
+main.main .jumbotron{
+	border-bottom: solid 2px black;
+}
+
+main.main .administradores{
+	padding: 20px;
+}
+
+main.main .administradores img{
+	min-height: 200px;
+	max-height: 200px;
+	border-radius: 2em;
+	border: solid white 2px;
+	cursor: pointer;
+	width: 100%;
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);	
+	transition: all 0.5s ease;
+}
+
+main.main .administradores img:hover{
+	border: solid rgba(0,0,0,0.4) 2px;
+	filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	transition: all 0.5s ease;
+}
+main.main .jumbotron h2{
+	font-family: 'Amiri', serif;
+	font-size: 40px;
+}
+
+div.panel{
+	padding:0;
+	margin-top: 5px;
+}
+
+
+
+div.panel h2.titulo{
+	background: rgba(0,0,0,1);
+	font-family: 'Amiri', serif;
+	text-align: left;
+	padding: 0 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+	font-size: 25px;
+	border-radius: 5px 5px 0 0;
+}
+
+div.panel form{
+	background: rgba(0,0,0,0.1);
+	padding: 0 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	border-radius: 0px 0px 10px 10px;
+	/*margin-top: 20px;*/
+	transition: all .3s ease;
+}
+
+
+
+
+/* --- Inicio admin ---*/
+.informacion-admin{
+	padding: 15px;
+	background: rgba(255,255,255,0.3);
+	border-top: solid 2px rgba(0,0,0,0.6);
+	border-bottom: solid 2px rgba(0,0,0,0.6);	
+}
+
+.informacion-admin .foto{
+	padding: 20px;
+}
+
+.informacion-admin img{
+	padding: 10px;
+	max-height: 275px;
+}
+
+
+.informacion-admin .info{
+	padding: 10px;
+}
+
+
+/* ---- Galeria admin ---- */
+.galeria-admin .jumbotron{
+	border-bottom: solid 2px black;
+}
+
+.galeria-admin .nuevo-producto{
+	background: rgba(0,0,0,0.2);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.imagen-galeria{
+	height: 270px !important;
+}
+
+.container-img-galeria{
+	margin-top: 30px;
+}
+
+/* --- Editar Producto --- */
+main.editar-producto .jumbotron{
+	border-bottom: solid black 2px;
+}
+
+/* --- Galería destacados ---*/
+.gallery-block{
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+
+.gallery-block .heading{
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.gallery-block .heading h2{
+	font-weight: bold;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
+
+.gallery-block.compact-gallery .item{
+	overflow: hidden;
+	margin-bottom: 0;
+	background: black;
+	opacity: 1;
+}
+
+.gallery-block.compact-gallery .item .image{
+	transition: 0.8s ease;
+}
+
+.gallery-block.compact-gallery .item .info{
+	position: relative;
+	display: inline-block;
+}
+
+.gallery-block.compact-gallery .item .description{
+	display: grid;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #fff;
+	padding: 10px;
+	font-size: 17px;
+	line-height: 18px;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	opacity: 1;
+	color: #fff;
+	transition: 0.8s ease;
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.39));
+}
+
+.gallery-block.compact-gallery .item .description .description-heading{
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.gallery-block.compact-gallery .item .description .description-body{
+	font-size: 0.8em;
+	margin-top: 10px;
+	font-weight: 300;
+}
+/* --- --- MEDIAQUERIES --- --- */
+@media screen and (max-width: 1300px) {
+	.barra-lateral {
+		min-width: auto;
+	}
+
+	.barra-lateral .logo {
+		display: none;
+	}
+
+	.barra-lateral .menu a span {
+		display: none;
+	}
+
+	.barra-lateral .menu a i {
+		margin:0;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.barra-lateral {
+		min-height: auto;
+	}
+
+	.barra-lateral .menu a {
+		display: inline-block;
+		border-bottom: none;
+	}
+
+	.main .widget form button {
+		width: 100%;
+	}
+/*
+	.jumbotron{
+		display: none;
+	}*/
+	
+}
+
+@media (min-width: 576px) {
+
+	.gallery-block.compact-gallery .item .description {
+		opacity: 0; 
+	}
+
+	.gallery-block.compact-gallery .item a:hover .description {
+		opacity: 1; 
+	} 
+
+	.gallery-block .zoom-on-hover:hover .image {
+		transform: scale(1.3);
+		opacity: 0.7; 
+	}
+}
+
+@media screen and (max-width: 767px){
+	
+}
+
+@media screen and (max-width: 991px){
+	
+}
+
+
