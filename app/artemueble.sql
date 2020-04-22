@@ -26,3 +26,9 @@ CREATE TABLE producto(
 	PRIMARY KEY(id_producto)
 );
 
+/* Inserción de un administrador por defecto */
+
+INSERT INTO usuario(nombre_usuario, telefono_usuario, email_usuario, password_usuario, 
+	fecha_registro_usuario, rol_usuario, imagen_usuario)
+		 VALUES ('Admin', '02041999', 'admin@gmail.com', '$2y$10$WoxtmFdqYF/9K0rVR/VAt.b53zYlyyKPEjbee00DGfST7YNiu9Zfu', NOW(), 'admin', 'default.jpg')
+
